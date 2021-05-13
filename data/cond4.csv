@@ -1,0 +1,11 @@
+donorid,sex,isolate_type,Age rounded to nearest 5,History of asthma,Recent respiratory infection,inflevel2
+a,female,fresh,75,No,No,high
+b,female,fresh,70,No,No,low
+c,male,fresh,70,No,No,excluded
+d,male,fresh,70,No,Mild cold,high
+e,male,fresh,70,No,No,high
+f,male,fresh,70,No,Period of cough,high
+k,female,fresh,70,No,COVID-19 10 weeks prior,high
+l,female,fresh,75,No,No,low
+m,male,broncoscopy,60,,,low
+o,mixed,,,,,

@@ -1,0 +1,99 @@
+﻿GENE PRODUCT DB	GENE PRODUCT ID	SYMBOL	QUALIFIER	GO TERM	GO NAME	ECO ID	GO EVIDENCE CODE	REFERENCE	WITH/FROM	TAXON ID	ASSIGNED BY	ANNOTATION EXTENSION	GO ASPECT
+UniProtKB	A0A024R2W8	HYAL3	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR027260	9606	InterPro		P
+UniProtKB	A0A024RD25	PIM1	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P26794|ensembl:ENSRNOP00000000637	9606	Ensembl		P
+UniProtKB	A0A096LP62	ITIH5	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	A2RTY6	ITIH2	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	B0LPE5	AKT1	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P47196|ensembl:ENSRNOP00000038369	9606	Ensembl		P
+UniProtKB	B2R8P5	B2R8P5	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR027260	9606	InterPro		P
+UniProtKB	B2RMS9	ITIH4	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	B4DM79	B4DM79	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	B4DN16	B4DN16	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR028371	9606	InterPro		P
+UniProtKB	B4DN16	B4DN16	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000322	IEA	GO_REF:0000041	UniPathway:UPA00341	9606	UniProt		P
+UniProtKB	B4DPQ4	B4DPQ4	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	B5MCP1	ITIH1	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	B7Z544	B7Z544	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	B7Z8B6	B7Z8B6	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	B7ZKJ8	ITIH4	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	C9J2H1	ITIH5	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	C9JB51	HYAL3	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR027260	9606	InterPro		P
+UniProtKB	D3DRR6	ITIH2	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	E7ET33	ITIH3	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	G3V1S7	HAS1	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR028385	9606	InterPro		P
+UniProtKB	H7C0L5	ITIH4	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	H7C0N0	ITIH1	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	M0QXH4	HAS1	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR028385	9606	InterPro		P
+UniProtKB	M0R2V0	HAS1	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR028385	9606	InterPro		P
+UniProtKB	O00219	HAS3	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000318	IBA	PMID:21873635	MGI:MGI:106590|MGI:MGI:107821|MGI:MGI:109599|PANTHER:PTN000530809|RGD:2781|UniProtKB:O00219|UniProtKB:Q92819	9606	GO_Central		P
+UniProtKB	O00219	HAS3	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000304	TAS	Reactome:R-HSA-2142850		9606	Reactome		P
+UniProtKB	O00219	HAS3	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:O08650|ensembl:ENSMUSP00000034385	9606	Ensembl		P
+UniProtKB	O00219	HAS3	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000322	IEA	GO_REF:0000041	UniPathway:UPA00341	9606	UniProt		P
+UniProtKB	O00219	HAS3	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000314	IDA	PMID:16900089		9606	UniProt	occurs_in(CL:0002306)	P
+UniProtKB	O15440	ABCC5	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000304	TAS	Reactome:R-HSA-2142850		9606	Reactome		P
+UniProtKB	O43820	HYAL3	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000318	IBA	PMID:21873635	MGI:MGI:1330288|PANTHER:PTN000924992|RGD:620321|UniProtKB:F1MZM9|UniProtKB:O43820|UniProtKB:Q12794|UniProtKB:Q12891	9606	GO_Central		P
+UniProtKB	O43820	HYAL3	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR027260	9606	InterPro		P
+UniProtKB	O43820	HYAL3	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q8VEI3|ensembl:ENSMUSP00000042667	9606	Ensembl		P
+UniProtKB	O43820	HYAL3	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:21699545		9606	UniProt	occurs_in(CL:0000312)	P
+UniProtKB	O43820-1	HYAL3	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:12084718		9606	UniProt		P
+UniProtKB	O75330	HMMR	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	P01137	TGFB1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:17324121		9606	UniProt		P
+UniProtKB	P01584	IL1B	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000314	IDA	PMID:15100360		9606	UniProt		P
+UniProtKB	P06865	HEXA	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	P07686	HEXB	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	P08236	GUSB	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	P09038	FGF2	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:19577615		9606	UniProt		P
+UniProtKB	P11309	PIM1	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P26794|ensembl:ENSRNOP00000000637	9606	Ensembl		P
+UniProtKB	P14210	HGF	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P17945|ensembl:ENSRNOP00000009764	9606	Ensembl		P
+UniProtKB	P16070	CD44	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	P16070	CD44	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:17170110		9606	UniProt		P
+UniProtKB	P19634	SLC9A1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	P19823	ITIH2	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	P19827	ITIH1	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	P31749	AKT1	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P47196|ensembl:ENSRNOP00000038369	9606	Ensembl		P
+UniProtKB	P38567	SPAM1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000318	IBA	PMID:21873635	MGI:MGI:1330288|PANTHER:PTN000924992|RGD:620321|UniProtKB:F1MZM9|UniProtKB:O43820|UniProtKB:Q12794|UniProtKB:Q12891	9606	GO_Central		P
+UniProtKB	P40933	IL15	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P97604|ensembl:ENSRNOP00000004590	9606	Ensembl		P
+UniProtKB	Q06033	ITIH3	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000318	IBA	PMID:21873635	MGI:MGI:1330288|PANTHER:PTN000924992|RGD:620321|UniProtKB:F1MZM9|UniProtKB:O43820|UniProtKB:Q12794|UniProtKB:Q12891	9606	GO_Central		P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000314	IDA	PMID:19478093		9606	UniProt		P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:17170110		9606	UniProt		P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:11296287		9606	UniProt		P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:20473947		9606	UniProt		P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:21695196		9606	UniProt		P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:21699545		9606	UniProt	occurs_in(CL:0000312)	P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:21829529		9606	UniProt		P
+UniProtKB	Q12794	HYAL1	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000314	IDA	PMID:21829529		9606	UniProt		P
+UniProtKB	Q12794-1	HYAL1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:12084718		9606	UniProt		P
+UniProtKB	Q12891	HYAL2	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000318	IBA	PMID:21873635	MGI:MGI:1330288|PANTHER:PTN000924992|RGD:620321|UniProtKB:F1MZM9|UniProtKB:O43820|UniProtKB:Q12794|UniProtKB:Q12891	9606	GO_Central		P
+UniProtKB	Q12891	HYAL2	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	Q12891	HYAL2	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:19443707		9606	UniProt	occurs_in(CL:0000233)	P
+UniProtKB	Q12891	HYAL2	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:17170110		9606	UniProt		P
+UniProtKB	Q12891	HYAL2	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:20554532		9606	UniProt	occurs_in(CL:0002328)	P
+UniProtKB	Q12891	HYAL2	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:21699545		9606	UniProt	occurs_in(CL:0000312)	P
+UniProtKB	Q14624	ITIH4	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	Q2M3T9	HYAL4	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000318	IBA	PMID:21873635	MGI:MGI:1330288|PANTHER:PTN000924992|RGD:620321|UniProtKB:F1MZM9|UniProtKB:O43820|UniProtKB:Q12794|UniProtKB:Q12891	9606	GO_Central		P
+UniProtKB	Q4VHE6	Q4VHE6	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR028385	9606	InterPro		P
+UniProtKB	Q5T985	ITIH2	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	Q6UXX5	ITIH6	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	Q86UX2	ITIH5	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	Q8IYH3	HAS1	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR028385	9606	InterPro		P
+UniProtKB	Q8WUJ3	CEMIP	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000304	TAS	Reactome:R-HSA-2142850		9606	Reactome		P
+UniProtKB	Q8WUJ3	CEMIP	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:Q8BI06|ensembl:ENSMUSP00000063277	9606	Ensembl		P
+UniProtKB	Q8WUJ3	CEMIP	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000315	IMP	PMID:23509262		9606	UniProt		P
+UniProtKB	Q8WWQ8	STAB2	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	Q92819	HAS2	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000318	IBA	PMID:21873635	MGI:MGI:106590|MGI:MGI:107821|MGI:MGI:109599|PANTHER:PTN000530809|RGD:2781|UniProtKB:O00219|UniProtKB:Q92819	9606	GO_Central		P
+UniProtKB	Q92819	HAS2	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR028371	9606	InterPro		P
+UniProtKB	Q92819	HAS2	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P70312|ensembl:ENSMUSP00000062212	9606	Ensembl		P
+UniProtKB	Q92819	HAS2	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:P70312|ensembl:ENSMUSP00000062212	9606	Ensembl		P
+UniProtKB	Q92819	HAS2	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000265	IEA	GO_REF:0000107	UniProtKB:O35776|ensembl:ENSRNOP00000006517	9606	Ensembl		P
+UniProtKB	Q92819	HAS2	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000315	IMP	PMID:22016393		9606	BHF-UCL		P
+UniProtKB	Q92819	HAS2	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000322	IEA	GO_REF:0000041	UniPathway:UPA00341	9606	UniProt		P
+UniProtKB	Q92819	HAS2	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000314	IDA	PMID:17324121		9606	UniProt		P
+UniProtKB	Q92819	HAS2	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000250	ISS	GO_REF:0000024	UniProtKB:O35776	9606	UniProt		P
+UniProtKB	Q92839	HAS1	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000318	IBA	PMID:21873635	MGI:MGI:106590|MGI:MGI:107821|MGI:MGI:109599|PANTHER:PTN000530809|RGD:2781|UniProtKB:O00219|UniProtKB:Q92819	9606	GO_Central		P
+UniProtKB	Q92839	HAS1	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR028385	9606	InterPro		P
+UniProtKB	Q92839	HAS1	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000304	TAS	Reactome:R-HSA-2142850		9606	Reactome		P
+UniProtKB	Q92839	HAS1	involved_in	GO:0030213	hyaluronan biosynthetic process	ECO:0000322	IEA	GO_REF:0000041	UniPathway:UPA00341	9606	UniProt		P
+UniProtKB	Q99653	CHP1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P
+UniProtKB	Q9P1C5	Q9P1C5	involved_in	GO:0030212	hyaluronan metabolic process	ECO:0000256	IEA	GO_REF:0000002	InterPro:IPR010600	9606	InterPro		P
+UniProtKB	Q9UHN6	CEMIP2	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000314	IDA	PMID:28246172		9606	UniProt		P
+UniProtKB	Q9Y5Y7	LYVE1	involved_in	GO:0030214	hyaluronan catabolic process	ECO:0000304	TAS	Reactome:R-HSA-2160916		9606	Reactome		P

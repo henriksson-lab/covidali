@@ -1,0 +1,67 @@
+donorid,Umuwell,infected,eplate,Series,Treatment,Desc
+a,a2,FALSE,1,nine_ind,none,
+b,b2,FALSE,1,nine_ind,none,
+c,c2,FALSE,1,nine_ind,none,
+d,d2,FALSE,1,nine_ind,none,
+e,e2,FALSE,2,nine_ind,none,
+f,f2,FALSE,2,nine_ind,none,
+k,k2,FALSE,3,nine_ind,none,
+l,l2,FALSE,3,nine_ind,none,
+m,m2,FALSE,3,nine_ind,none,
+a,a5,TRUE,1,nine_ind,none,
+b,b5,TRUE,1,nine_ind,none,
+c,c5,TRUE,1,nine_ind,none,
+d,d5,TRUE,1,nine_ind,none,
+e,e5,TRUE,2,nine_ind,none,
+f,f5,TRUE,2,nine_ind,none,
+k,k5,TRUE,3,nine_ind,none,
+l,l5,TRUE,3,nine_ind,none,
+m,m5,TRUE,3,nine_ind,none,
+a,a6,TRUE,1,nine_ind,none,
+b,b6,TRUE,1,nine_ind,none,
+c,c6,TRUE,1,nine_ind,none,
+d,d6,TRUE,1,nine_ind,none,
+e,e6,TRUE,2,nine_ind,none,
+f,f6,TRUE,2,nine_ind,none,
+k,k6,TRUE,3,nine_ind,none,
+l,l6,TRUE,3,nine_ind,none,
+m,m6,TRUE,3,nine_ind,none,
+a,a8,FALSE,1,nine_ind,enz,
+b,b8,FALSE,1,nine_ind,enz,
+c,c8,FALSE,1,nine_ind,enz,
+d,d8,FALSE,1,nine_ind,enz,
+e,e8,FALSE,2,nine_ind,enz,
+f,f8,FALSE,2,nine_ind,enz,
+k,k8,FALSE,3,nine_ind,enz,
+l,l8,FALSE,3,nine_ind,enz,
+m,m8,FALSE,3,nine_ind,enz,
+a,a11,TRUE,1,nine_ind,enz,
+b,b11,TRUE,1,nine_ind,enz,
+c,c11,TRUE,1,nine_ind,enz,
+d,d11,TRUE,1,nine_ind,enz,
+e,e11,TRUE,2,nine_ind,enz,
+f,f11,TRUE,2,nine_ind,enz,
+k,k11,TRUE,3,nine_ind,enz,
+l,l11,TRUE,3,nine_ind,enz,
+m,m11,TRUE,3,nine_ind,enz,
+a,a12,TRUE,1,nine_ind,enz,
+b,b12,TRUE,1,nine_ind,enz,
+c,c12,TRUE,1,nine_ind,enz,
+d,d12,TRUE,1,nine_ind,enz,
+e,e12,TRUE,2,nine_ind,enz,
+f,f12,TRUE,2,nine_ind,enz,
+k,k12,TRUE,3,nine_ind,enz,
+l,l12,TRUE,3,nine_ind,enz,
+m,m12,TRUE,3,nine_ind,enz,
+o,tube1,FALSE,,tube,none,Mock
+o,tube2,FALSE,,tube,none,Mock
+o,tube3,FALSE,,tube,none,Mock
+o,tube4,TRUE,,tube,none,Infected
+o,tube5,TRUE,,tube,none,Infected
+o,tube6,TRUE,,tube,none,Infected
+o,tube7,TRUE,,tube,beta03,Infected+0.3nM betamethasone
+o,tube8,TRUE,,tube,beta03,Infected+0.3nM betamethasone
+o,tube9,TRUE,,tube,beta03,Infected+0.3nM betamethasone
+o,tube10,TRUE,,tube,beta3,Infected+3nM betamethasone
+o,tube11,TRUE,,tube,beta3,Infected+3nM betamethasone
+o,tube12,TRUE,,tube,beta3,Infected+3nM betamethasone
