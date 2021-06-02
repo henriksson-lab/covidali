@@ -38,7 +38,6 @@ plotVolcano <- function(r, title="", removesex=TRUE, minexp=50,removecovid=TRUE)
   
   sp <- r$col!="black"
   plot(r$log2FoldChange, -log10(r$pvalue),cex=0, main=title)
-  #  text(r$log2FoldChange, -log10(r$pvalue), labels = r$symbol, cex=0.8, col=r$col)
   text(r$log2FoldChange[!sp], -log10(r$pvalue)[!sp], labels = r$symbol[!sp], cex=0.8, col=r$col[!sp])
   text(r$log2FoldChange[sp], -log10(r$pvalue)[sp], labels = r$symbol[sp], cex=0.8, col=r$col[sp])
 }
@@ -76,6 +75,88 @@ plotVolcano.save <- function(r, title, removesex=FALSE, minexp=50,removecovid=FA
 
 dat_secretome <- read.csv("secretome.csv",stringsAsFactors = FALSE)
 
+
+
+####################################################
+####################################################   2021-05-26: compare infected vs control, group high, no treatment, men and female sep
+####################################################
+
+keep <- ob_cond$inflevel2=="high" & ob_cond$Treatment %in% c("none") & ob_cond$sex=="male"
+dds <- DESeqDataSetFromMatrix(countData = ob_counts[,keep], colData = ob_cond[keep,], design = ~infected)
+dds <- DESeq(dds)
+r <- as.data.frame(results(cooksCutoff=FALSE,independentFiltering=FALSE,dds, contrast = c("infected","TRUE","FALSE")))
+r$geneid <- rownames(r)
+r <- merge(r, ensid)
+r <- r[order(r$pvalue),]
+plotVolcano.save(r,title="2021-05-26 high inf vs mock men")
+
+
+
+keep <- ob_cond$inflevel2=="high" & ob_cond$Treatment %in% c("none") & ob_cond$sex=="female"
+dds <- DESeqDataSetFromMatrix(countData = ob_counts[,keep], colData = ob_cond[keep,], design = ~infected)
+dds <- DESeq(dds)
+r <- as.data.frame(results(cooksCutoff=FALSE,independentFiltering=FALSE,dds, contrast = c("infected","TRUE","FALSE")))
+r$geneid <- rownames(r)
+r <- merge(r, ensid)
+r <- r[order(r$pvalue),]
+plotVolcano.save(r,title="2021-05-26 high inf vs mock female")
+
+####################################################
+####################################################   2021-05-21: compare infected vs control, group high, no treatment treat
+####################################################
+#män vs kvinnor i gruppen High på de infekterade proverna - oinfekterade prover
+#Dvs ((a5 + a6 minus a2), (k5 + k6 minus k2)) vs ((d5+d6 minus d2), (e5+e6 minus e2), (f5+f6 minus f2)).
+
+# ob_cond$infected_woman <- "FALSE"
+# ob_cond$infected_woman[ob_cond$infected=="TRUE" & ob_cond$sex=="female"] <- "TRUE"
+# ob_cond$infected_man <- "FALSE"
+# ob_cond$infected_man[ob_cond$infected=="TRUE" & ob_cond$sex=="male"] <- "TRUE"
+
+# keep <- ob_cond$inflevel2=="high" & ob_cond$Treatment %in% c("none")
+# dds <- DESeqDataSetFromMatrix(countData = ob_counts[,keep], colData = ob_cond[keep,], design = ~infected_woman+infected_man)
+# dds <- DESeq(dds)
+# resultsNames(dds)
+# r <- as.data.frame(results(cooksCutoff=FALSE,independentFiltering=FALSE,dds, contrast = c(0,1,-1)))
+# r$geneid <- rownames(r)
+# r <- merge(r, ensid)
+# r <- r[order(r$pvalue),]
+# plotVolcano.save(r,title="2021-05-21 diff in infection men and woman compared to uninf in high")
+
+ob_cond$inf_sex <- paste(ob_cond$infected, ob_cond$sex,sep="_")
+
+keep <- ob_cond$inflevel2=="high" & ob_cond$Treatment %in% c("none")
+dds <- DESeqDataSetFromMatrix(countData = ob_counts[,keep], colData = ob_cond[keep,], design = ~inf_sex+0)
+dds <- DESeq(dds)
+r <- as.data.frame(results(cooksCutoff=FALSE,independentFiltering=FALSE,dds, contrast = c(-1,1,1,-1)))
+r$geneid <- rownames(r)
+r <- merge(r, ensid)
+r <- r[order(r$pvalue),]
+plotVolcano.save(r,title="2021-05-21 diff in infection men and woman compared to uninf in high")
+
+
+
+####################################################
+####################################################   2021-05-21: compare infected vs control, group high, no treatment treat
+####################################################
+#män vs kvinnor i gruppen High på de infekterade proverna - oinfekterade prover
+#Dvs ((a5 + a6 minus a2), (k5 + k6 minus k2)) vs ((d5+d6 minus d2), (e5+e6 minus e2), (f5+f6 minus f2)).
+# 
+# ob_cond$name <- rownames(ob_cond)
+# donors_group_high <- as.character(unique(ob_cond$donor[ob_cond$inflevel2=="high"]))
+# thevec <- rep(0, nrow(ob_cond))
+# thevec[ob_cond$inflevel2=="high" &  ob_cond$infected=="TRUE" & ob_cond$sex=="male"] <-  1/sum(ob_cond$inflevel2=="high" &  ob_cond$infected=="TRUE" & ob_cond$sex=="male")
+# thevec[ob_cond$inflevel2=="high" &  ob_cond$infected=="FALSE" & ob_cond$sex=="male"] <- -1/sum(ob_cond$inflevel2=="high" & !ob_cond$infected=="FALSE" & ob_cond$sex=="male")
+# thevec[ob_cond$inflevel2=="high" &  ob_cond$infected=="TRUE" & ob_cond$sex=="female"] <- -1/sum(ob_cond$inflevel2=="high" &  ob_cond$infected=="TRUE" & ob_cond$sex=="female")
+# thevec[ob_cond$inflevel2=="high" &  ob_cond$infected=="FALSE" & ob_cond$sex=="female"] <-  1/sum(ob_cond$inflevel2=="high" & !ob_cond$infected=="FALSE" & ob_cond$sex=="female")
+# 
+# #keep <- ob_cond$donor %in% c(donors_group_high) & ob_cond$infected=="TRUE" & ob_cond$inflevel2=="high" & ob_cond$Treatment %in% c("none")
+# dds <- DESeqDataSetFromMatrix(countData = ob_counts, colData = ob_cond, design = ~name+0)
+# dds <- DESeq(dds)
+# r <- as.data.frame(results(cooksCutoff=FALSE,independentFiltering=FALSE,dds, contrast = thevec))
+# r$geneid <- rownames(r)
+# r <- merge(r, ensid)
+# r <- r[order(r$pvalue),]
+# plotVolcano.save(r,title="2021-05-21 diff in infection men and woman compared to uninf in high")
 
 
 ####################################################
